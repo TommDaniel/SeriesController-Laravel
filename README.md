@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # My First Laravel 11 Project 🚀
 
 Welcome to my first Laravel 11 project! This project is part of a course I took on **Alura**, where I learned the basics of Laravel and built a simple website to store and manage the series I've already watched. 🎥📚
@@ -44,3 +45,6 @@ Follow the steps below to set up and run the project locally.
    npm install && npm run build
    php artisan migrate
    composer run dev
+=======
+# SeriesController-Laravel
+>>>>>>> db2c6d1bea8100e35fe9e73e9ce9c856f26e91ef
