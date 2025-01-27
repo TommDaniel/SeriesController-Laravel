@@ -16,6 +16,17 @@
         {{ $title }}
     </h1>
 
+
+    @if ($errors->any())
+        <div class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-md mt-2" role="alert">
+            <ul class="list-disc pl-5 space-y-1">
+                @foreach ($errors->all() as $error)
+                    <li>{{ $error }}</li>
+                @endforeach
+            </ul>
+        </div>
+    @endif
+
     <!-- Conteúdo principal -->
     <div class="w-full max-w-3xl bg-white rounded-lg shadow-xl p-6 space-y-4">
         {{ $slot }}
